@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Welcome to JiawenWiki
 
-### Wealth · Influence · Build
+### Wealth · Influence · Build · Health
 
-欢迎来到我的个人知识库！这里汇集了我在三个核心领域的学习和实践经验：
+欢迎来到我的个人知识库！这里汇集了我在四个核心领域的学习和实践经验：
 
 ## 💎 [Wealth](/docs/wealth)
 **财富增长的智慧**
@@ -22,6 +22,11 @@ sidebar_position: 1
 **构建产品与收入**
 
 从想法到产品，从产品到收入，记录完整的创业和产品开发历程。
+
+## 💪 [Health](/docs/health)
+**身心健康管理**
+
+通过科学的运动、饮食、睡眠和生活习惯，打造更健康的身心状态。
 
 ---
 
@@ -43,4 +48,4 @@ sidebar_position: 1
 
 ---
 
-*Let's Grow Wealth, Build Influence, and Create Together! 🚀*
+*Let's Grow Wealth, Build Influence, Create Products, and Stay Healthy Together! 🚀*

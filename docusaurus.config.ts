@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'JiawenWiki',
-  tagline: 'Wealth · Influence · Build',
+  tagline: 'Wealth · Influence · Build · Health',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -90,6 +90,12 @@ const config: Config = {
           position: 'left',
           label: 'Build',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'healthSidebar',
+          position: 'left',
+          label: 'Health',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/your-github-username/JiawenWiki',
@@ -115,6 +121,10 @@ const config: Config = {
             {
               label: 'Build',
               to: '/docs/build',
+            },
+            {
+              label: 'Health',
+              to: '/docs/health',
             },
           ],
         },
