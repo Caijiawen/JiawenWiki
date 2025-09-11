@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'JiawenWiki',
-  tagline: 'Trade · Influence · Build',
+  tagline: 'Wealth · Influence · Build',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -74,9 +74,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tradeSidebar',
+          sidebarId: 'wealthSidebar',
           position: 'left',
-          label: 'Trade',
+          label: 'Wealth',
         },
         {
           type: 'docSidebar',
@@ -105,8 +105,8 @@ const config: Config = {
           title: 'Knowledge Base',
           items: [
             {
-              label: 'Trade',
-              to: '/docs/trade',
+              label: 'Wealth',
+              to: '/docs/wealth',
             },
             {
               label: 'Influence',

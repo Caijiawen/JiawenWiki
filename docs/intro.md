@@ -4,14 +4,14 @@ sidebar_position: 1
 
 # Welcome to JiawenWiki
 
-### Trade · Influence · Build
+### Wealth · Influence · Build
 
 欢迎来到我的个人知识库！这里汇集了我在三个核心领域的学习和实践经验：
 
-## 🏦 [Trade](/docs/trade)
-**投资与交易的智慧**
+## 💎 [Wealth](/docs/wealth)
+**财富增长的智慧**
 
-学习如何在数字货币和传统市场中进行明智的投资决策，掌握风险管理的艺术。
+学习如何通过投资策略、资产配置和风险管理实现长期财富增长。
 
 ## 📢 [Influence](/docs/influence)  
 **建立个人影响力**
@@ -43,4 +43,4 @@ sidebar_position: 1
 
 ---
 
-*Let's Trade, Influence, and Build together! 🚀*
+*Let's Grow Wealth, Build Influence, and Create Together! 🚀*
