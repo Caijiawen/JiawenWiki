@@ -21,16 +21,40 @@ Claude Code 是 Anthropic 推出的 AI 辅助编程工具，掌握正确的使�
 - **专注开发**：减少中断，保持思路连贯
 
 #### 如何设置？
+
+**推荐方法**：设置系统级别的 claude 命令别名
+
+在 Claude Code 中直接输入以下指令：
+
 ```bash
-# 在 Claude Code 设置中启用
-Settings > Claude Code > Auto-execute commands: ON
+我想要在终端输入 claude 等同于输入 claude --dangerously-skip-permissions，
+请确保这个修改是系统级的，我开其他新的终端窗口也有同样的效果，
+请帮我执行这一改动
+```
+
+**原理说明**：
+- `--dangerously-skip-permissions` 参数让 Claude 跳过执行确认
+- 设置系统级别的 alias 确保所有终端窗口都生效
+- Claude Code 会自动修改你的 shell 配置文件（如 `.zshrc` 或 `.bashrc`）
+
+**验证设置**：
+```bash
+# 重新打开终端，输入
+claude --help
+
+# 应该看到 --dangerously-skip-permissions 已经默认启用
 ```
 
 #### 实际效果对比：
 ```diff
-- 传统方式：Claude 提示 → 等待确认 → 执行 → 再次等待确认 → 继续
-+ 自动执行：Claude 分析 → 立即执行 → 立即继续下一步
+- 传统方式：Claude 提示 → [按Enter确认] → 执行 → [再次按Enter] → 继续
++ 自动执行：Claude 分析问题 → 立即执行命令 → 立即显示结果 → 继续下一步
 ```
+
+**⚠️ 安全提醒**：
+- 只在你完全信任的项目中使用此设置
+- 建议先在测试项目中验证效果
+- 如需恢复，可以移除 shell 配置中的 alias
 
 ### 2. 创建 CLAUDE.md 文件（项目上下文）
 
