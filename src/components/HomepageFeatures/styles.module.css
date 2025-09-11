@@ -9,3 +9,29 @@
   height: 200px;
   width: 200px;
 }
+
+.featureLink {
+  text-decoration: none !important;
+  color: inherit;
+  display: block;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  height: 100%;
+}
+
+.featureLink:hover {
+  text-decoration: none !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: var(--ifm-hover-overlay);
+}
+
+.featureLink h3 {
+  margin-bottom: 0.5rem;
+}
+
+.featureLink p {
+  margin-bottom: 0;
+  color: var(--ifm-color-emphasis-700);
+}
