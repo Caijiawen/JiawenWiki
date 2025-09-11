@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-github-username', // 替换为你的 GitHub 用户名
+  organizationName: 'Caijiawen', // 替换为你的 GitHub 用户名
   projectName: 'JiawenWiki', // 仓库名称
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/your-github-username/JiawenWiki/tree/main/',
+          editUrl: 'https://github.com/Caijiawen/JiawenWiki/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -48,7 +48,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/your-github-username/JiawenWiki/tree/main/',
+          editUrl: 'https://github.com/Caijiawen/JiawenWiki/tree/main/',
           blogTitle: 'Jiawen\'s Blog',
           blogDescription: 'Personal insights on trading, building influence, and product development',
           postsPerPage: 'ALL',
@@ -98,7 +98,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/your-github-username/JiawenWiki',
+          href: 'https://github.com/Caijiawen/JiawenWiki',
           label: 'GitHub',
           position: 'right',
         },
@@ -133,11 +133,11 @@ const config: Config = {
           items: [
             {
               label: 'Twitter',
-              href: 'https://twitter.com/your-twitter-handle',
+              href: 'https://twitter.com/JiawenMedia',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/your-github-username',
+              href: 'https://github.com/Caijiawen',
             },
           ],
         },
