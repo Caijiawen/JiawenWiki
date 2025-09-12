@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://jiawenwiki.vercel.app', // 可以后续修改为你的域名
+  url: 'https://jiawen.wiki',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: 'Caijiawen', // 替换为你的 GitHub 用户名
   projectName: 'JiawenWiki', // 仓库名称
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // 支持中英文双语
@@ -150,7 +150,7 @@ const config: Config = {
             },
             {
               label: 'RSS',
-              href: '/blog/rss.xml',
+              to: '/blog/rss.xml',
             },
           ],
         },
