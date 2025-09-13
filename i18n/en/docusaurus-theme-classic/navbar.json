@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "JiawenWiki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "JiawenWiki Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Wealth": {
+    "message": "Wealth",
+    "description": "Navbar item with label Wealth"
+  },
+  "item.label.Influence": {
+    "message": "Influence",
+    "description": "Navbar item with label Influence"
+  },
+  "item.label.Build": {
+    "message": "Build",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Health": {
+    "message": "Health",
+    "description": "Navbar item with label Health"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.💎 Wealth": {
+    "message": "💎 Wealth",
+    "description": "The label for category 💎 Wealth in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.📢 Influence": {
+    "message": "📢 Influence",
+    "description": "The label for category 📢 Influence in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🛠️ Build": {
+    "message": "🛠️ Build",
+    "description": "The label for category 🛠️ Build in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.💪 Health": {
+    "message": "💪 Health",
+    "description": "The label for category 💪 Health in sidebar tutorialSidebar"
+  }
+}

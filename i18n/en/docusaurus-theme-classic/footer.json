@@ -1,0 +1,50 @@
+{
+  "link.title.Knowledge Base": {
+    "message": "Knowledge Base",
+    "description": "The title of the footer links column with title=Knowledge Base in the footer"
+  },
+  "link.title.Connect": {
+    "message": "Connect",
+    "description": "The title of the footer links column with title=Connect in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Wealth": {
+    "message": "Wealth",
+    "description": "The label of footer link with label=Wealth linking to /docs/wealth"
+  },
+  "link.item.label.Influence": {
+    "message": "Influence",
+    "description": "The label of footer link with label=Influence linking to /docs/influence"
+  },
+  "link.item.label.Build": {
+    "message": "Build",
+    "description": "The label of footer link with label=Build linking to /docs/build"
+  },
+  "link.item.label.Health": {
+    "message": "Health",
+    "description": "The label of footer link with label=Health linking to /docs/health"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/JiawenMedia"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Caijiawen"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.RSS": {
+    "message": "RSS",
+    "description": "The label of footer link with label=RSS linking to /blog/rss.xml"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 JiawenWiki. Built with AI assistance and lots of ☕.",
+    "description": "The footer copyright"
+  }
+}
