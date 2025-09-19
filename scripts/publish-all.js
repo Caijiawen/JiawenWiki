@@ -17,11 +17,12 @@ const PLATFORMS = {
   twitter: publishToTwitter,
   wechat: publishToWechat,
 };
+const SEPARATOR = '='.repeat(50);
 
 async function publishToAllPlatforms(filePath, selectedPlatforms = ['twitter', 'wechat']) {
   console.log(`🚀 开始多平台发布: ${filePath}`);
   console.log(`📋 目标平台: ${selectedPlatforms.join(', ')}`);
-  console.log('=' * 50);
+  console.log(SEPARATOR);
   
   const results = [];
   
@@ -55,7 +56,7 @@ async function publishToAllPlatforms(filePath, selectedPlatforms = ['twitter', '
   }
   
   // 汇总结果
-  console.log('\n' + '=' * 50);
+  console.log('\n' + SEPARATOR);
   console.log('📊 发布结果汇总:');
   
   const successful = results.filter(r => r.success);

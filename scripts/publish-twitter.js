@@ -32,9 +32,9 @@ async function publishToTwitter(filePath, options = {}) {
     
     // TODO: 实际的 Twitter API 调用
     console.log('🔄 Twitter 内容预览:');
-    console.log('=' * 50);
+    console.log('='.repeat(50));
     console.log(twitterContent);
-    console.log('=' * 50);
+    console.log('='.repeat(50));
     
     // TODO: 使用 Twitter API 发布
     // await twitterClient.v2.tweet(twitterContent);

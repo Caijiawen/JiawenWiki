@@ -30,12 +30,12 @@ async function publishToWechat(filePath, options = {}) {
     
     // TODO: 实际的微信公众号 API 调用
     console.log('🔄 微信公众号内容预览:');
-    console.log('=' * 50);
+    console.log('='.repeat(50));
     console.log(`标题: ${frontMatter.title || '无标题'}`);
     console.log(`摘要: ${frontMatter.description || '暂无摘要'}`);
     console.log('---');
     console.log(wechatContent.substring(0, 500) + '...');
-    console.log('=' * 50);
+    console.log('='.repeat(50));
     
     // TODO: 使用微信公众号 API 发布
     // await wechatClient.createDraft({
